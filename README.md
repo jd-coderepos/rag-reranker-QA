@@ -43,3 +43,13 @@ Run this application using the following command:
 ```sh
 streamlit run app.py
 ```
+
+##Try the questions
+
+What advances about ecological restoration in Brazilian biomes were identified in the research article?
+
+
+
+No response when multiple papers are provided and the research question is not clear | upload two different papers
+
+Try asking a generic question: What methods were reported in the paper?

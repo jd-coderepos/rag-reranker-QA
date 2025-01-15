@@ -55,12 +55,15 @@ def process_document(uploaded_file: UploadedFile) -> list[Document]:
         IOError: If there are issues reading/writing the temporary file
     """
     # Store uploaded file as a temp file
+    # fd = tempfile.mkstemp()
     temp_file = tempfile.NamedTemporaryFile("wb", suffix=".pdf", delete=False)
     temp_file.write(uploaded_file.read())
 
     loader = PyMuPDFLoader(temp_file.name)
     docs = loader.load()
+    temp_file.close()
     os.unlink(temp_file.name)  # Delete temp file
+    
 
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=400,

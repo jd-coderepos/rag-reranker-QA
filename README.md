@@ -1,4 +1,4 @@
-# Demo LLM with RAG
+# 📑 RAG with Cross-Encoders Re-ranking Demo Application
 
 This is a demo project showcasing a Large Language Model (LLM) integrated with Retrieval-Augmented Generation (RAG). The project demonstrates how to utilize LLMs for advanced document retrieval and text generation tasks.
 
@@ -6,7 +6,7 @@ This is a demo project showcasing a Large Language Model (LLM) integrated with R
 
 - Python >= 3.10
 - SQLite >= 3.35
-- Ollama (for LLM integration)
+- [Ollama](https://ollama.dev/download)
 
 ## Setting Up Locally
 
@@ -18,3 +18,24 @@ Make sure you have Python 3.10 or greater installed. You can download Python fro
 
 ```bash
 sqlite3 --version
+```
+
+### 2. Install Dependencies
+
+Make sure you have installed all these dependencies.
+
+```sh
+pip install ollama chromadb sentence-transformers streamlit pymupdf langchain-community
+```
+
+```sh
+ollama run llama3.2
+```
+
+### 3. Run the Application
+
+Run this application using the following command:
+
+```sh
+streamlit run app.py
+```

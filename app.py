@@ -85,7 +85,7 @@ def get_vector_collection() -> chromadb.Collection:
         url="http://localhost:11434/api/embeddings",
         model_name="nomic-embed-text:latest",
     )
-
+    chromadb.api.client.SharedSystemClient.clear_system_cache()
     chroma_client = chromadb.PersistentClient(path="./demo-rag-chroma")
     return chroma_client.get_or_create_collection(
         name="rag_app",
@@ -109,6 +109,7 @@ def add_to_vector_collection(all_splits: list[Document], file_name: str):
     Raises:
         ChromaDBError: If there are issues upserting documents to the collection
     """
+    chromadb.api.client.SharedSystemClient.clear_system_cache()
     collection = get_vector_collection()
     documents, metadatas, ids = [], [], []
 

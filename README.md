@@ -29,6 +29,10 @@ pip install ollama chromadb sentence-transformers streamlit pymupdf langchain-co
 ```
 
 ```sh
+ollama pull llama3.2:3b
+```
+
+```sh
 ollama run llama3.2
 ```
 

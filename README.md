@@ -33,6 +33,11 @@ ollama pull llama3.2:3b
 ```
 
 ```sh
+ollama pull nomic-embed-text
+```
+
+
+```sh
 ollama run llama3.2
 ```
 

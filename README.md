@@ -49,7 +49,7 @@ ollama run llama3.2
 streamlit run app.py
 ```
 
-### 👩‍💻 Demo
+### 👩‍💻 Demo the App
 
 We have provided three example review papers in the [papers folder](https://github.com/jd-coderepos/rag-reranker-QA/tree/main/papers) to help you explore the application's capabilities.
 

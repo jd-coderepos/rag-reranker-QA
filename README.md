@@ -37,13 +37,13 @@ ollama pull nomic-embed-text
 ```
 
 
-```sh
-ollama run llama3.2
-```
-
 ### 3. Run the Application
 
 Run this application using the following command:
+
+```sh
+ollama run llama3.2
+```
 
 ```sh
 streamlit run app.py

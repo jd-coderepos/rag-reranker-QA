@@ -49,11 +49,11 @@ ollama run llama3.2
 streamlit run app.py
 ```
 
-## Try the Questions
+### Demo
 
 We have provided three example review papers in the [papers folder](https://github.com/jd-coderepos/rag-reranker-QA/tree/main/papers) to help you explore the application's capabilities.
 
-### Step 1: Upload Paper 1
+#### Step 1: Upload Paper 1
 
 - **Paper Title:** "Ecological restoration in Brazilian biomes: Identifying advances and gaps"
 - **Sample Question:**  
@@ -63,7 +63,7 @@ We have provided three example review papers in the [papers folder](https://gith
   - Check the "See retrieved documents" section to understand how the retrieval component functioned.  
   - Examine the "See most relevant document IDs" section to see how the reranker prioritized the retrieved content.
 
-### Step 2: Upload Paper 2
+#### Step 2: Upload Paper 2
 
 - **Paper Title:** "Seed germination traits can contribute better to plant community ecology"
 - **Important:** The system should now have indexed both Paper 1 and Paper 2.
@@ -76,14 +76,14 @@ We have provided three example review papers in the [papers folder](https://gith
   - Check the "See retrieved documents" section to analyze retrieval.  
   - Look at the "See most relevant document IDs" section to verify the reranker's performance. Here it should have selected only the chunks corresponding to paper 1.
 
-### Step 3: Ask a Generic Question
+#### Step 3: Ask a Generic Question
 
 - **Sample Question:**  
   - *"What methods were reported in the paper?"*
 - **Expected Behavior:**  
   - If multiple papers are uploaded and the query lacks specificity, the application should not return a response.
 
-### Step 4: Ask a Question from Paper 2
+#### Step 4: Ask a Question from Paper 2
 
 - **Sample Question:**  
   - *"Do seed germination traits contribute better to plant community ecology?"*

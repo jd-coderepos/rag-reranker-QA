@@ -112,6 +112,7 @@ def add_to_vector_collection(all_splits: list[Document], file_name: str):
     Raises:
         ChromaDBError: If there are issues upserting documents to the collection
     """
+    #check if you have this code:
     chromadb.api.client.SharedSystemClient.clear_system_cache()
     collection = get_vector_collection()
     documents, metadatas, ids = [], [], []

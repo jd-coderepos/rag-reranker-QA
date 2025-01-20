@@ -2,6 +2,10 @@
 
 This is a demo project showcasing a Large Language Model (LLM) integrated with Retrieval-Augmented Generation (RAG). The project demonstrates how to utilize LLMs for advanced document retrieval and text generation tasks.
 
+## Demo
+[![Watch the Video](https://img.youtube.com/vi/fjWbWOT4VJU/0.jpg)](https://youtu.be/fjWbWOT4VJU)
+
+
 ## Requirements
 
 - Python >= 3.10

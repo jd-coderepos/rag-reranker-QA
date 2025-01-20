@@ -10,7 +10,7 @@ This is a demo project showcasing a Large Language Model (LLM) integrated with R
 
 - Python >= 3.10
 - SQLite >= 3.35
-- [Ollama](https://ollama.dev/download)
+- [Ollama](https://ollama.ai/download)
 
 ## Setting Up Locally
 

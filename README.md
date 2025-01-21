@@ -98,3 +98,8 @@ We have provided three example review papers in the [papers folder](https://gith
 
 By following these steps, you can evaluate how well the application handles document retrieval, reranking, and response generation based on your queries.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+You are free to use, modify, and distribute this software in accordance with the terms of the license.
